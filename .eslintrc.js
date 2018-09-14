@@ -24,6 +24,15 @@ module.exports = {
     // allow async-await
     'generator-star-spacing': 'off',
     // allow debugger during development
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off'
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    // 'no-unused-vars': [2, {"args": "none"}],
+    'no-unused-vars': 0,
+    "no-unexpected-multiline": 2,
+    "no-multi-spaces": [2, {"ignoreEOLComments": true}],
+    "brace-style": 2,
+    "semi-spacing": 2, // 分号前不加空格
+    "semi": 3, 
+    "skipBlankLines":true,
+    "ignoreComments": true
   }
 }
